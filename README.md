@@ -1,4 +1,4 @@
-# The World in One Day — Sunday, 22 November 2026
+# A Map of One Day's News — Sunday, 22 November 2026
 
 Entry for the make.fun bounty **“Sum up 22 November's world news in one image”**
 (news-image-20261122).
@@ -8,7 +8,9 @@ front page `entry.png` to `/output/entry.png`, byte for byte, on every run.
 
 ## What the image shows
 
-A newspaper front page dated **Sunday, 22 November 2026**:
+A dark world-map briefing board dated **Sunday, 22 November 2026**: seven
+red pins on a stylised world map, each pin matching a numbered story card
+below it with a headline and a full caption, plus a yellow ticker:
 
 - **Lead — Antalya, Türkiye:** COP31 ends with no deal on fossil fuels
 - **Dymer, Ukraine:** drone smashes a flat block, 14 missing
@@ -22,4 +24,6 @@ A newspaper front page dated **Sunday, 22 November 2026**:
   Marc Márquez's 2026 MotoGP title
 
 The image is 1024 × 1024 PNG, drawn programmatically with large, high-contrast
-type so every headline and caption stays readable at thumbnail size.
+type on a dark navy ground so every headline and caption stays readable at
+thumbnail size. A closing card, “Why this day mattered”, ties the seven
+pinned stories together.
