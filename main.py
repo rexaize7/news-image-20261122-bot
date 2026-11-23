@@ -6,7 +6,6 @@ Copies the pre-drawn front page (entry.png, in this repository) to
 both runs write exactly the same bytes.
 """
 import os
-import shutil
 import sys
 
 
@@ -23,7 +22,8 @@ def main() -> int:
         data = f.read()
     with open(dst, "wb") as f:
         f.write(data)
-    return 0
+    # Verify the copy landed whole before reporting success.
+    return 0 if os.path.getsize(dst) == len(data) and len(data) > 0 else 1
 
 
 if __name__ == "__main__":
